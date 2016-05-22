@@ -6,8 +6,8 @@ burnin = 100000;
 lag = 1;
 nsamp = 100000;
 sig = 0.001;
-%b = [0; 0.06; 0; 0; 0; 0; 0.1]
-b = [beta_reg; 0.1]
+b = [0; 0.06; 0; 0; 0; 0; 0.1]
+%b = [beta_reg; 0.1]
 
 % storage
 Beta = zeros(nsamp,7);
